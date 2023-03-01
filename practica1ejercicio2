@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class practica1 {
+    public static void main(String[] args) {
+        int ingresoMensual;
+
+        int a = 5;
+        int b = 14;
+        String par="par";
+        String impar="impar";
+
+        Scanner scan= new Scanner(System.in);
+        System.out.println("¿Ingrese par o impar para mostrar los números pares o impares entre dos numeros a y b :");
+        opcion=scan.nextLine();
+    }
+}
